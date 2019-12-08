@@ -1,1 +1,1 @@
-web: gunicorn song_spotter.app:app
+web: gunicorn app:app
