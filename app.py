@@ -17,9 +17,8 @@ global firstUser
 # db = mongo.spotify
 
 
-client = client
 
-mongo = pymongo.MongoClient(client)
+client = pymongo.MongoClient("mongodb+srv://beckykwarren:Purple37&@songs-hpw2t.mongodb.net/test?retryWrites=true&w=majority")
 db = client.spotify
 
 
